@@ -72,11 +72,11 @@ class GraphRep implements Graph {
         if (v == w) {
             return;
         }
-        if (!hasEdge(v, w)) {
+        if (!hasEdge(v,w)) {
             edge++;
 
             arr[v].add(w);
-            arr[w].add(v);
+            arr[w].add(v); 
         }
     }
     /**
@@ -88,10 +88,10 @@ class GraphRep implements Graph {
      * @return     True if has edge, False otherwise.
      */
     public boolean hasEdge(int v, int w) {
-        for (int k : arr[v]) {
-            if (k == w) {
-                return true;
-            }
+        for(int k :arr[v]) {
+                if (k==w) {
+                    return true;
+                }
         }
         return false;
     }
@@ -154,3 +154,4 @@ class GraphRep implements Graph {
         }
     }
 }
+
