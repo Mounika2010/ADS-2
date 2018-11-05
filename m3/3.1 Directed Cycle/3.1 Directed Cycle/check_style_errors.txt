@@ -1,5 +1,4 @@
 Starting audit...
-[ERROR] D:\ADS-2\m3\3.1 Directed Cycle\3.1 Directed Cycle\Stack.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] D:\ADS-2\m3\3.1 Directed Cycle\3.1 Directed Cycle\Stack.java:7: Line has trailing spaces. [RegexpSingleline]
 [ERROR] D:\ADS-2\m3\3.1 Directed Cycle\3.1 Directed Cycle\Stack.java:8: Line has trailing spaces. [RegexpSingleline]
 [ERROR] D:\ADS-2\m3\3.1 Directed Cycle\3.1 Directed Cycle\Stack.java:21: Line is longer than 80 characters (found 90). [LineLength]
@@ -37,4 +36,4 @@ Starting audit...
 [ERROR] D:\ADS-2\m3\3.1 Directed Cycle\3.1 Directed Cycle\Stack.java:119: 'if' construct must use '{}'s. [NeedBraces]
 [ERROR] D:\ADS-2\m3\3.1 Directed Cycle\3.1 Directed Cycle\Stack.java:121: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 37 errors.
+Checkstyle ends with 36 errors.
