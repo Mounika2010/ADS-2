@@ -1,5 +1,4 @@
 Starting audit...
-[ERROR] D:\ADS-2\m4\Code Camp - WordNet\Code Camp - WordNet\WordNet\WordNet.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] D:\ADS-2\m4\Code Camp - WordNet\Code Camp - WordNet\WordNet\WordNet.java:1: Missing a Javadoc comment. [JavadocType]
 [ERROR] D:\ADS-2\m4\Code Camp - WordNet\Code Camp - WordNet\WordNet\WordNet.java:3:5: Missing a Javadoc comment. [JavadocVariable]
 [ERROR] D:\ADS-2\m4\Code Camp - WordNet\Code Camp - WordNet\WordNet\WordNet.java:3:13: Variable 'graph' must be private and have accessor methods. [VisibilityModifier]
@@ -32,4 +31,4 @@ Starting audit...
 [ERROR] D:\ADS-2\m4\Code Camp - WordNet\Code Camp - WordNet\WordNet\WordNet.java:58:5: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] D:\ADS-2\m4\Code Camp - WordNet\Code Camp - WordNet\WordNet\WordNet.java:58:29: Parameter args should be final. [FinalParameters]
 Audit done.
-Checkstyle ends with 32 errors.
+Checkstyle ends with 31 errors.
