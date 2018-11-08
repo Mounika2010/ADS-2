@@ -5,11 +5,6 @@ public class SeamCarver {
 	// create a seam carver object based on the given picture
 	private Picture pic;
 
-	
-
-	// int[][] energy;
-
-
 	public SeamCarver(Picture picture) {
 		this.pic = picture;
 		// this.width = pic.width();
@@ -43,8 +38,8 @@ public class SeamCarver {
 	// energy of pixel at column x and row y
 	public double energy(int x, int y) {
 		// return 0;
-		if (x == 0 || y == 0 || pic.width() - 1 == x || pic.width() - 1 == y) {
-			return 1000.0;
+		if (x == 0 || y == 0 || x == pic.width() - 1 || y == pic.width() - 1) {
+			return 1000;
 		} else {
 
 			Color top = pic.get(x - 1, y);
