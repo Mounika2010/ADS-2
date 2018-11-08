@@ -1,4 +1,4 @@
-import java.lang.IllegalArgumentException;
+// import java.lang.IllegalArgumentException;
 import java.awt.Color;
 
 public class SeamCarver {
