@@ -1,19 +1,17 @@
 import java.lang.IllegalArgumentException;
 public class SeamCarver {
 	// create a seam carver object based on the given picture
-	Picture pic;
+	private Picture pic;
 
-	private int width;
+	
 
-	private int height;
-
-	int[][] energy;
+	// int[][] energy;
 
 
 	public SeamCarver(Picture picture) {
 		this.pic = picture;
-		this.width = pic.width();
-		this.height = pic.height();
+		// this.width = pic.width();
+		// this.height = pic.height();
 		 if (picture == null) {
 		 	throw new IllegalArgumentException("picture is null");
 		 }
@@ -23,7 +21,7 @@ public class SeamCarver {
 	// private void calculateEnergies() {
 	// 	for (int i = 0; i < pic.width(); i++);
 	// 		for (int j = 0; i < pic.height(); j++) {
-				
+
 	// 		}
 	// }
 	// current picture
@@ -32,12 +30,12 @@ public class SeamCarver {
 	}
 	// width of current picture
 	public int width() {
-		return width;
+		return pic.width();
 	}
 
 	// height of current picture
 	public int height() {
-		return height;
+		return pic.height();
 	}
 
 	// energy of pixel at column x and row y
