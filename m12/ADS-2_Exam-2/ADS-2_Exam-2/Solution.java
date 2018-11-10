@@ -6,11 +6,11 @@ import java.util.Scanner;
  * Class for solution.
  */
 public class Solution {
-/**
- * Driver method.
- *
- * @param      args  The arguments
- */
+    /**
+     * Driver method.
+     *
+     * @param      args  The arguments
+     */
     public static void main(String[] args) {
         // Self loops are not allowed...
         // Parallel Edges are allowed...
