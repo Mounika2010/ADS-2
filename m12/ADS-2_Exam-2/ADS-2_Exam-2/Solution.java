@@ -16,7 +16,7 @@ public class Solution {
 			String[] arr = scan.nextLine().split(" ");
 			Edge edge = new Edge(Integer.parseInt(arr[0]),
                 Integer.parseInt(arr[1]),
-                Float.parseFloat(arr[2]));
+                Double.parseDouble(arr[2]));
             edgewgraph.addEdge(edge);
 
 }
