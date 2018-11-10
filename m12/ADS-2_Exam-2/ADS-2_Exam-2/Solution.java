@@ -5,7 +5,7 @@ public class Solution {
 		// Self loops are not allowed...
 		// Parallel Edges are allowed...
 		// Take the Graph input here...
-		
+
 		Scanner scan = new Scanner(System.in);
 		int vertices = Integer.parseInt(scan.nextLine());
 		int edges = Integer.parseInt(scan.nextLine());
@@ -15,25 +15,25 @@ public class Solution {
 
 			String[] arr = scan.nextLine().split(" ");
 			Edge edge = new Edge(Integer.parseInt(arr[0]),
-                Integer.parseInt(arr[1]),
-                Double.parseDouble(arr[2]));
-            edgewgraph.addEdge(edge);
+			                     Integer.parseInt(arr[1]),
+			                     Double.parseDouble(arr[2]));
+			edgewgraph.addEdge(edge);
 
-}
+		}
 
 
 
 
 
 		String caseToGo = scan.nextLine();
-		
+
 		switch (caseToGo) {
 		case "Graph":
 			//Print the Graph Object.
 			System.out.println(edgewgraph.toString());
-		
+
 			break;
-		
+
 
 		case "DirectedPaths":
 			// Handle the case of DirectedPaths, where two integers are given.
@@ -52,10 +52,10 @@ public class Solution {
 
 		default:
 			break;
-		
-	// } catch (Exception ex) {
-	// 	System.out.println(ex.getMessage());
-	}
+
+			// } catch (Exception ex) {
+			// 	System.out.println(ex.getMessage());
+		}
 
 	}
 }
