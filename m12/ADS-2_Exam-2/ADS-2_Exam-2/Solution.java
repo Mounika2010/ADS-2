@@ -9,13 +9,18 @@ public class Solution {
 		int vertices = Integer.parseInt(scan.nextLine());
 		int edges = Integer.parseInt(scan.nextLine());
 		Digraph digraph = new Digraph(vertices);
-		while (edges > 0) {
-            String[] tokens = scan.nextLine().split(" ");
-            int a = Integer.parseInt(tokens[0]);
-            int b = Integer.parseInt(tokens[1]);
-            digraph.addEdge(a, b);
-            edges--;
-        }
+		for (int i = 0; i < vertices; i++) {
+			String[] arr = scan.nextLine ().split(" ");
+			if (arr.length == 1) {
+				for (int j = 0; j < vertices; j++) {
+					digraph.addEdge(i, j);
+				}
+			} else {
+				for (int j = 1; j < arr.length; j++) {
+					digraph.addEdge(Integer.parseInt(arr[0]), Integer.parseInt(arr[j]));
+				}
+			}	
+		}
        
 		String caseToGo = null;
 		switch (caseToGo) {
