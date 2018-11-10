@@ -8,7 +8,8 @@ Expected Output:
 4: 2-4 1.00000  1-4 5.00000  
 5:
 Your Output: 
-null
+Exception in thread "main" java.lang.NullPointerException
+	at Solution.main(Solution.java:27)
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -33,7 +34,8 @@ Exception in thread "main" java.lang.IllegalArgumentException: vertex 78 is not 
 Expected Output: 
 No Path Found.
 Your Output: 
-null
+Exception in thread "main" java.lang.NullPointerException
+	at Solution.main(Solution.java:27)
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -48,7 +50,8 @@ Exception in thread "main" java.lang.IllegalArgumentException: vertex 78 is not 
 Expected Output: 
 No Path Found.
 Your Output: 
-null
+Exception in thread "main" java.lang.NullPointerException
+	at Solution.main(Solution.java:27)
 ----------------------------------------
 ########## Testcase 5: Failed ##########
 Expected Output: 

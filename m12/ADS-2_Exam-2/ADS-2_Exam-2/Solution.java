@@ -23,12 +23,16 @@ public class Solution {
 		}
        
 		String caseToGo = null;
-		try {
+		
 		switch (caseToGo) {
 		case "Graph":
+			try{
 			//Print the Graph Object.
 			System.out.println(digraph);
+		} catch (Exception ex) {
+			System.out.println(ex.getMessage());
 			break;
+		}
 
 		case "DirectedPaths":
 			// Handle the case of DirectedPaths, where two integers are given.
@@ -47,9 +51,9 @@ public class Solution {
 
 		default:
 			break;
-		}
-	} catch (Exception ex) {
-		System.out.println(ex.getMessage());
+		
+	// } catch (Exception ex) {
+	// 	System.out.println(ex.getMessage());
 	}
 
 	}
