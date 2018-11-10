@@ -31,10 +31,6 @@ public class Solution {
 
         }
 
-
-
-
-
         String caseToGo = scan.nextLine();
 
         switch (caseToGo) {
@@ -43,8 +39,6 @@ public class Solution {
             System.out.println(edgewgraph.toString());
 
             break;
-
-
         case "DirectedPaths":
             // Handle the case of DirectedPaths, where two integers are given.
             // First is the source and second is the destination.
@@ -62,9 +56,6 @@ public class Solution {
 
         default:
             break;
-
-            // } catch (Exception ex) {
-            //  System.out.println(ex.getMessage());
         }
 
     }
