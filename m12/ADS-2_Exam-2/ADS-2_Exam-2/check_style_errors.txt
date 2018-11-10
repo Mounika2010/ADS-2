@@ -10,11 +10,11 @@ Starting audit...
 [ERROR] D:\ADS-2\m12\ADS-2_Exam-2\ADS-2_Exam-2\Solution.java:22: Line has trailing spaces. [RegexpSingleline]
 [ERROR] D:\ADS-2\m12\ADS-2_Exam-2\ADS-2_Exam-2\Solution.java:24: Line has trailing spaces. [RegexpSingleline]
 [ERROR] D:\ADS-2\m12\ADS-2_Exam-2\ADS-2_Exam-2\Solution.java:26: Line has trailing spaces. [RegexpSingleline]
-[ERROR] D:\ADS-2\m12\ADS-2_Exam-2\ADS-2_Exam-2\Solution.java:29:28: 'try' is not followed by whitespace. [WhitespaceAround]
-[ERROR] D:\ADS-2\m12\ADS-2_Exam-2\ADS-2_Exam-2\Solution.java:29:28: '{' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] D:\ADS-2\m12\ADS-2_Exam-2\ADS-2_Exam-2\Solution.java:38: Line is longer than 80 characters (found 90). [LineLength]
-[ERROR] D:\ADS-2\m12\ADS-2_Exam-2\ADS-2_Exam-2\Solution.java:45: Line is longer than 80 characters (found 87). [LineLength]
-[ERROR] D:\ADS-2\m12\ADS-2_Exam-2\ADS-2_Exam-2\Solution.java:46: Line is longer than 80 characters (found 110). [LineLength]
-[ERROR] D:\ADS-2\m12\ADS-2_Exam-2\ADS-2_Exam-2\Solution.java:54: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\ADS-2\m12\ADS-2_Exam-2\ADS-2_Exam-2\Solution.java:31: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\ADS-2\m12\ADS-2_Exam-2\ADS-2_Exam-2\Solution.java:33: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\ADS-2\m12\ADS-2_Exam-2\ADS-2_Exam-2\Solution.java:36: Line is longer than 80 characters (found 90). [LineLength]
+[ERROR] D:\ADS-2\m12\ADS-2_Exam-2\ADS-2_Exam-2\Solution.java:43: Line is longer than 80 characters (found 87). [LineLength]
+[ERROR] D:\ADS-2\m12\ADS-2_Exam-2\ADS-2_Exam-2\Solution.java:44: Line is longer than 80 characters (found 110). [LineLength]
+[ERROR] D:\ADS-2\m12\ADS-2_Exam-2\ADS-2_Exam-2\Solution.java:52: Line has trailing spaces. [RegexpSingleline]
 Audit done.
 Checkstyle ends with 17 errors.
