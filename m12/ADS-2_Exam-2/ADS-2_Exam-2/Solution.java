@@ -5,29 +5,32 @@ public class Solution {
 		// Self loops are not allowed...
 		// Parallel Edges are allowed...
 		// Take the Graph input here...
+		
 		Scanner scan = new Scanner(System.in);
 		int vertices = Integer.parseInt(scan.nextLine());
 		int edges = Integer.parseInt(scan.nextLine());
-		Digraph digraph = new Digraph(vertices);
-		for (int i = 0; i < vertices; i++) {
-			String[] arr = scan.nextLine ().split(" ");
-			if (arr.length == 1) {
-				for (int j = 0; j < vertices; j++) {
-					digraph.addEdge(i, j);
-				}
-			} else {
-				for (int j = 1; j < arr.length; j++) {
-					digraph.addEdge(Integer.parseInt(arr[0]), Integer.parseInt(arr[j]));
-				}
-			}	
-		}
-       
+		System.out.println(vertices + " " + "vertices" + " " + edges + " " + "edges");
+		EdgeWeightedGraph edgewgraph = new EdgeWeightedGraph(vertices);
+		for (int i = 0; i < edges; i++) {
+
+			String[] arr = scan.nextLine().split(" ");
+			Edge edge = new Edge(Integer.parseInt(arr[0]),
+                Integer.parseInt(arr[1]),
+                Float.parseFloat(arr[2]));
+            edgewgraph.addEdge(edge);
+
+}
+
+
+
+
+
 		String caseToGo = scan.nextLine();
 		
 		switch (caseToGo) {
 		case "Graph":
 			//Print the Graph Object.
-			System.out.println(digraph);
+			System.out.println(edgewgraph.toString());
 		
 			break;
 		
