@@ -27,6 +27,7 @@ public class Solution {
 		switch (caseToGo) {
 		case "Graph":
 			//Print the Graph Object.
+			System.out.println(digraph);
 			break;
 
 		case "DirectedPaths":
