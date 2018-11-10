@@ -22,7 +22,7 @@ public class Solution {
 			}	
 		}
        
-		String caseToGo = null;
+		String caseToGo = scan.nextLine();
 		
 		switch (caseToGo) {
 		case "Graph":
