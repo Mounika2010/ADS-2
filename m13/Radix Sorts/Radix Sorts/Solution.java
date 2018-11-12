@@ -4,13 +4,16 @@ import java.util.Scanner;
  */
 public final class Solution {
     /**
-     * Driver function.
-     *
-     * @param      args  The arguments
+     * Constructs the object.
      */
     private Solution() {
         //not used.
     }
+    /**
+     * Driver function.
+     *
+     * @param      args  The arguments
+     */
     public static void main(final String[] args) {
         Scanner scan = new Scanner(System.in);
         int n = scan.nextInt();
