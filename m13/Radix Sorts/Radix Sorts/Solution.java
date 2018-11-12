@@ -8,6 +8,9 @@ public final class Solution {
      *
      * @param      args  The arguments
      */
+    private Solution() {
+        //not used.
+    }
     public static void main(final String[] args) {
         Scanner scan = new Scanner(System.in);
         int n = scan.nextInt();
