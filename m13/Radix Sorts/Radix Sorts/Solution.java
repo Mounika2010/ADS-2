@@ -2,7 +2,7 @@ import java.util.Scanner;
 /**
  * Class for solution.
  */
-final class Solution {
+public final class Solution {
     /**
      * Driver function.
      *
