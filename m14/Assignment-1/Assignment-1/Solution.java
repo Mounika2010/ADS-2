@@ -2,7 +2,13 @@ import java.util.Scanner;
 /**
  * Class for solution.
  */
-public class Solution {
+public final class Solution {
+    /**
+     * Constructs the object.
+     */
+    private Solution() {
+        // default constructor is not used.
+    }
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         String[] words = loadWords();
@@ -21,7 +27,11 @@ public class Solution {
             System.out.println(str);
         }
     }
-
+    /**
+     * Loads words.
+     *
+     * @return     words.
+     */
     public static String[] loadWords() {
         In in = new In("/Files/dictionary-algs4.txt");
         String[] words = in.readAllStrings();
