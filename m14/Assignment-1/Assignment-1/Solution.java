@@ -9,6 +9,11 @@ public final class Solution {
     private Solution() {
         // default constructor is not used.
     }
+    /**
+     * main function.
+     *
+     * @param      args  The arguments
+     */
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         String[] words = loadWords();
