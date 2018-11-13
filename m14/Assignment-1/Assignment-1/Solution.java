@@ -15,12 +15,10 @@ public final class Solution {
      * @param      args  The arguments
      */
     public static void main(final String[] args) {
-        Scanner scan = new Scanner(System.in);
         String[] words = loadWords();
-        //Your code goes here...
-        String prefixstr = scan.nextLine();
-        // SuffixArray suffix = new SuffixArray(prefixstr);
         TST<Integer> tst = new TST<Integer>();
+        Scanner scan = new Scanner(System.in);
+        String prefix = scan.nextLine();
         int j = 0;
         for (String word : words) {
             SuffixArray suffix = new SuffixArray(word);
@@ -28,14 +26,14 @@ public final class Solution {
                 tst.put(suffix.select(i), j++);
             }
         }
-        for (String str : tst.keysWithPrefix(prefixstr)) {
+        for (String str : tst.keysWithPrefix(prefix)) {
             System.out.println(str);
         }
     }
     /**
      * Loads words.
      *
-     * @return     words.
+     * @return     words
      */
     public static String[] loadWords() {
         In in = new In("/Files/dictionary-algs4.txt");
@@ -43,4 +41,8 @@ public final class Solution {
         return words;
     }
 }
+
+
+
+
 
