@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Solution {
 
     // Don't modify this method.
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         Scanner scan = new Scanner(System.in);
         String cases = scan.nextLine();
 
@@ -102,10 +102,10 @@ public class Solution {
 }
 
 class T9 {
-    private TST<Integer> tst;
+    TST tst = new TST();
     public T9(BinarySearchST<String, Integer> st) {
         // your code goes here
-        TST<Integer> tst = new TST<Integer>();
+        // TST<Integer> tst = new TST<Integer>();
         for (String word : st.keys()) {
             tst.put(word, st.get(word));
         }
