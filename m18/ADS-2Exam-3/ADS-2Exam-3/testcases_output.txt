@@ -55,7 +55,7 @@ messagesome
 going
 Your Output: 
 Exception in thread "main" java.lang.NullPointerException
-	at T9.getAllWords(Solution.java:114)
+	at T9.getAllWords(Solution.java:119)
 	at Solution.main(Solution.java:26)
 ----------------------------------------
 ########## Testcase 2: Failed ##########
