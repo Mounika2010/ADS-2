@@ -25,6 +25,10 @@ public class BoggleSolver {
     Complexity is O(l) l is length of dictionary
     */
     public BoggleSolver(String[] dictionary) {
+        if (board == null) {
+            throw new IllegalArgumentException("board is null");
+        }
+
         dict = new Trie<>();
         for (int i = 0; i < dictionary.length; i++) {
             dict.put(dictionary[i], getScore(dictionary[i]));
@@ -36,9 +40,7 @@ public class BoggleSolver {
     Compelxity O(r*c) r:no: of rows, c: no: of cols
     */
     public Iterable<String> getAllValidWords(BoggleBoard board) {
-        if (board == null) {
-            throw new IllegalArgumentException("board is null");
-        }
+        
 
         this.board = board;
         this.map = new HashMap<>();
