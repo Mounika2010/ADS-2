@@ -36,6 +36,10 @@ public class BoggleSolver {
     Compelxity O(r*c) r:no: of rows, c: no: of cols
     */
     public Iterable<String> getAllValidWords(BoggleBoard board) {
+        if (board == null) {
+            throw new IllegalArgumentException("board is null");
+        }
+
         this.board = board;
         this.map = new HashMap<>();
         this.list = new ArrayList<>();
