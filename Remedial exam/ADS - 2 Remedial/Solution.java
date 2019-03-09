@@ -13,5 +13,10 @@ public class Solution {
         }
         KruskalMST krushkal = new KruskalMST(edgewgraph);
         System.out.format("%.0f", krushkal.totalWeight());
+        for (Edge each: edgewgraph.edges()){
+        	System.out.println(each);
+        }
+       
+
 	}
 }
