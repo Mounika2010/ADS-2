@@ -2,7 +2,8 @@
 Expected Output: 
 15
 Your Output: 
-15Edge@30c7da1e
+15
+Edge@30c7da1e
 Edge@5b464ce8
 Edge@57829d67
 Edge@19dfb72a
@@ -13,7 +14,8 @@ Edge@7e0ea639
 Expected Output: 
 1106
 Your Output: 
-1106Edge@30c7da1e
+1106
+Edge@30c7da1e
 Edge@5b464ce8
 Edge@57829d67
 Edge@19dfb72a
@@ -24,7 +26,8 @@ Edge@7e0ea639
 Expected Output: 
 49950000
 Your Output: 
-49950000Edge@30c7da1e
+49950000
+Edge@30c7da1e
 Edge@5b464ce8
 Edge@57829d67
 Edge@19dfb72a
@@ -1029,7 +1032,8 @@ Edge@226a82c4
 Expected Output: 
 6359060
 Your Output: 
-6359060Edge@30c7da1e
+6359060
+Edge@30c7da1e
 Edge@5b464ce8
 Edge@57829d67
 Edge@19dfb72a
@@ -11034,7 +11038,8 @@ Edge@1ba359bd
 Expected Output: 
 115820
 Your Output: 
-115820Edge@30c7da1e
+115820
+Edge@30c7da1e
 Edge@5b464ce8
 Edge@57829d67
 Edge@19dfb72a
@@ -21039,7 +21044,8 @@ Edge@1ba359bd
 Expected Output: 
 15
 Your Output: 
-15Edge@30c7da1e
+15
+Edge@30c7da1e
 Edge@5b464ce8
 Edge@57829d67
 Edge@19dfb72a
