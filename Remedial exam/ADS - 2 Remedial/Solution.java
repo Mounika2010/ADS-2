@@ -12,6 +12,6 @@ public class Solution {
         	edgewgraph.addEdge(new Edge(Integer.parseInt(xyz[0]), Integer.parseInt(xyz[1]), Double.parseDouble(xyz[2])));
         }
         KruskalMST krushkal = new KruskalMST(edgewgraph);
-        System.out.println(krushkal.totalWeight());
+        System.out.format("%5f", krushkal.totalWeight());
 	}
 }

@@ -2,13 +2,13 @@
 Expected Output: 
 15
 Your Output: 
-15.0
+15.000000
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
 1106
 Your Output: 
-1106.0
+1106.000000
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -22,17 +22,17 @@ Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 1000
 Expected Output: 
 6359060
 Your Output: 
-6359060.0
+6359060.000000
 ----------------------------------------
 ########## Testcase 4: Failed ##########
 Expected Output: 
 115820
 Your Output: 
-115820.0
+115820.000000
 ----------------------------------------
 ########## Testcase 5: Failed ##########
 Expected Output: 
 15
 Your Output: 
-15.0
+15.000000
 ----------------------------------------
