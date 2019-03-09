@@ -1,0 +1,38 @@
+########## Testcase 0: Failed ##########
+Expected Output: 
+15
+Your Output: 
+15.0
+----------------------------------------
+########## Testcase 1: Failed ##########
+Expected Output: 
+1106
+Your Output: 
+1106.0
+----------------------------------------
+########## Testcase 2: Failed ##########
+Expected Output: 
+49950000
+Your Output: 
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 1000
+	at EdgeWeightedGraph.addEdge(EdgeWeightedGraph.java:64)
+	at Solution.main(Solution.java:12)
+----------------------------------------
+########## Testcase 3: Failed ##########
+Expected Output: 
+6359060
+Your Output: 
+6359060.0
+----------------------------------------
+########## Testcase 4: Failed ##########
+Expected Output: 
+115820
+Your Output: 
+115820.0
+----------------------------------------
+########## Testcase 5: Failed ##########
+Expected Output: 
+15
+Your Output: 
+15.0
+----------------------------------------
