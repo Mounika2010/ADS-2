@@ -18,7 +18,7 @@ public class Solution {
         	int edge = each.other(v);
         	int a = v;
         	int b = edge;
-        System.out.println(a + b);
+        System.out.println(a + "-"+b);
 
         }
 
