@@ -16,8 +16,8 @@ public class Solution {
         for (Edge each: krushkal.edges()){
         	int v = each.either();
         	int edge = each.other(v);
-        	int a = v;
-        	int b = edge;
+        	int a = v + 1;
+        	int b = edge + 1;
         System.out.println(a + "-"+b);
 
         }
